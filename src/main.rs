@@ -13,6 +13,7 @@ use interpreter::Interpreter;
 use parser::Parser;
 use scanner::Scanner;
 
+
 fn tokenize(input: &str) {
     let mut scanner = Scanner::new(input);
     let tokens = scanner.scan_tokens();
